@@ -1,0 +1,10 @@
+<ivy-module version="2.0">
+  <info organisation="bundledPlugin" module="org.jetbrains.plugins.go-template" revision="GO-243.21565.208"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="go-template" ext="jar" conf="default" url="plugins/go-template/lib"/>
+  </publications>
+  <dependencies/>
+</ivy-module>

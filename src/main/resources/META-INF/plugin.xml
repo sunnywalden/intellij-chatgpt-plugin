@@ -9,6 +9,9 @@
     </description>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.plugins.go</depends>
+    <depends>com.intellij.modules.goland</depends>
+    <depends>com.intellij.openapi</depends>
 
     <actions>
         <action id="com.sunnywalden.ChatGPTPlugin" class="com.sunnywalden.ChatGPTPlugin" text="ChatGPT">
